@@ -20,3 +20,4 @@ https://shazhenyu.blog.csdn.net/article/details/88672055<BR/>
 # 3、说明
 详情请参考我博客中的方法，先更新博客后更新Github
 # 4、数据库
+![image](https://github.com/ShaShiDiZhuanLan/Demo_SQL_Python/blob/master/%E6%95%B0%E6%8D%AE%E5%BA%93%E6%80%BB%E8%A7%88.png)
