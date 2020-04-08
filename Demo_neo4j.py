@@ -8,7 +8,9 @@ Url: https://shazhenyu.blog.csdn.net/article/details/93116754
 """
 from py2neo import Graph, Node, Relationship
 
-graph = Graph(host='193.112.61.11', http_port=7474, user='neo4j', password='123456')
+
+# 连接图数据库
+graph = Graph(host='127.0.0.1', http_port=7474, user='neo4j', password='123456')
 
 # 清空库
 graph.delete_all()
@@ -20,7 +22,7 @@ test_node_2 = Node('西游记', name='猪八戒')  # 修改的部分
 test_node_3 = Node('西游记', name='沙师弟')  # 修改的部分
 test_node_4 = Node('西游记', name='白龙马')  # 修改的部分
 
-test_node_3.setdefault("博客地址",'https://shazhenyu.blog.csdn.net/')
+test_node_3.setdefault("博客地址", 'https://shazhenyu.blog.csdn.net/')
 
 graph.create(test_node_0)
 graph.create(test_node_1)
