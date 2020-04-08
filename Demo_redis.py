@@ -123,7 +123,7 @@ def del_all_keys(rd, db_type="current"):
 
 
 if __name__ and "__main__":
-    redis = connect_redis('47.92.225.212', 6581, "QNzs@.root_1347908642")
+    redis = connect_redis('127.0.0.1', 6581, "QNzs@.root_1347908642")
     if redis != "error":
         key_count(redis)
         get_keys_rule(redis, "XY_KEY_20181229083554_*")
